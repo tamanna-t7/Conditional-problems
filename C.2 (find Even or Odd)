@@ -1,0 +1,15 @@
+#include<stdio.h>
+int main()
+{
+    int n,R;
+    scanf("%d",&n);
+    R=n%2;
+    if(R==0){
+        printf("even number");
+    }
+    else
+    {
+        printf("odd number");
+    }
+
+}
