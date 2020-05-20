@@ -1,0 +1,30 @@
+#include<stdio.h>
+int main()
+{
+    int a,b,c;
+    printf("please enter the value of num1=");
+    scanf("%d",&a);
+    printf("please enter the number of num2=");
+    scanf("%d",&b);
+    printf("please enter the number of num3=");
+    scanf("%d",&c);
+    if(a>b)
+
+    {
+        if(a>c)
+         printf("the largest number is num1=%d\n",a);
+        else
+          printf("the largest number is num3=%d",c);
+
+    }
+
+    else
+    {
+        if(b>c)
+         printf("the largest number is num2=%d\n",b);
+        else
+          printf("the largest number is num3=%d",c);
+    }
+     return 0;
+
+}
