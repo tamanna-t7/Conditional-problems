@@ -1,0 +1,18 @@
+#include<stdio.h>
+int main()
+{
+    char c;
+    printf("enter a character:");
+    scanf("%c",&c);
+    if(c>64 && c<91)
+    {
+        printf("captial letter");
+    }
+    else
+      {
+          printf("small letter");
+
+      }
+      return 0;
+
+}
