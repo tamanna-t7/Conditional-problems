@@ -1,0 +1,14 @@
+#include <stdio.h>
+int main() {
+    long long n=12849384573;
+    int count = 0;
+    printf("Enter the mobile number: %lld\n",n);
+
+
+    while (n != 0) {
+        n =n/10;
+        ++count;
+    }
+
+    printf("total digit of mobile number:%d", count);
+}
