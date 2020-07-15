@@ -1,0 +1,8 @@
+#include<stdio.h>
+int main()
+{
+    int n=1000,sum;
+
+    sum=100*25/100;
+    printf("total price of shirt = %d tk",sum);
+}
