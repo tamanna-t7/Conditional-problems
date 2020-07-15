@@ -1,0 +1,28 @@
+#include <stdio.h>
+ int main()
+ {
+    char char1 = 'R';
+    char char2 = 'o';
+    char char3 = 'b';
+    char char4 = 'i';
+    char char5 = 'n';
+
+	printf("The reverse of %c%c%c%c%c is = %c%c%c%c%c\n",
+		char1, char2, char3,char4,char5,
+		char5, char4, char3,char2,char1);
+
+    char char6 = 'T';
+    char char7 = 'a';
+    char char8 = 'm';
+    char char9 = 'a';
+    char char10= 'n';
+    char char11= 'n';
+    char char12= 'a';
+
+	printf("The reverse of %c%c%c%c%c%c%c is = %c%c%c%c%c%c%c\n",
+		char6, char7, char8,char9,char10,char11,char12,
+		char12,char11,char10, char9, char8,char7,char6);
+
+
+	return(0);
+	}
