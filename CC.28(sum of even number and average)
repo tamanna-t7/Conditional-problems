@@ -1,1 +1,22 @@
 
+#include<stdio.h>
+int main()
+{
+   int sum=0,n=50, c=30, average;
+
+
+   for(c=30;c<=n;c+=2)
+   {
+       sum=sum+c;
+   }
+
+   printf("The sum 30 to 50 is : %d\n\n",sum);
+
+     average=sum/11;
+
+   printf("The average 30 to 50 is : %d\n\n",average);
+
+
+ return 0;
+
+}
